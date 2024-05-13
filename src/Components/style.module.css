@@ -1,0 +1,24 @@
+.card {
+  box-shadow: 0.1px -1px 10px black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+}
+.btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  color: rgb(158, 153, 153);
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
